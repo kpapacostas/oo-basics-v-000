@@ -9,7 +9,7 @@ class Book
   
   def initialize(title)
     @title = title
-    @@all << 
+    @@all << self 
   end 
   
   def turn_page

@@ -19,5 +19,5 @@ class Book
   
 end 
 
-# new_book = Book.new("Book title")
+new_book = Book.new("Book title")
 # new_book.author = "Nicole"

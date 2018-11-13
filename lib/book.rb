@@ -2,8 +2,7 @@
 
 class Book 
   
-  attr_writer
-  attr_reader
+  attr_reader :title
   attr_accessor
   
   def initialize(title)

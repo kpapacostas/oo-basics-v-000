@@ -2,6 +2,10 @@
 
 class Book 
   
+  attr_writer
+  attr_reader
+  attr_accessor
+  
   def initialize(title)
     @title = title 
   end

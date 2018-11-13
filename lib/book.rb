@@ -5,6 +5,8 @@ class Book
   attr_reader :title
   attr_accessor :author, :genre, :page_count
   
+  @@all = []
+  
   def initialize(title)
     @title = title 
   end 

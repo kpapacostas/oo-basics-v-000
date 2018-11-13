@@ -12,12 +12,12 @@ class Book
     @@all << self 
   end 
   
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
+  # def turn_page
+  #   puts "Flipping the page...wow, you read fast!"
+  # end
  
   
 end 
 
-new_book = Book.new("Book title")
+# new_book = Book.new("Book title")
 # new_book.author = "Nicole"

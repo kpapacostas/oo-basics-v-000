@@ -7,8 +7,10 @@ class Book
   
   def initialize(title)
     @title = title 
-  end
-  
+  end 
  
   
 end 
+
+new_book = Book.new("Book title")
+new_book.author = "Nicole"
